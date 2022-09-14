@@ -20,11 +20,11 @@ app.use(cors());
 app.use(express.json());
 
 // Gọi router get
-// app.get("/", (req, res) => {
-//     res.json({
-//         message: "Welcome to contact book application."
-//     });
-// })
+app.get("/", (req, res) => {
+    res.json({
+        message: "Welcome to contact book application."
+    });
+})
 
 // Các route quản lý liên hệ sẽ được dùng khi đường dẫn bắt đầu là /api/contacts.
 app.use("/api/contacts", contactsRouter);
