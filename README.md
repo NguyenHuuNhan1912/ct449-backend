@@ -3,5 +3,3 @@
 ## Backend Nodejs(Express)
 
 ### Made by Nguyen Huu Nhan 
-
-### Text 1
